@@ -11,9 +11,17 @@
     margin-top: 30px;
 }
 
-.inputToDo {
+.input {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
+    height: 40px;
+}
+
+.inputTodo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 15px;
     height: 40px;
 }

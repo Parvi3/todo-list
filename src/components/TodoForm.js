@@ -14,7 +14,7 @@ const TodoForm = ({ addTodo }) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <div className="inputToDo">
+            <div className="input">
                 <input
                     placeholder="Что нужно сделать?"
                     type='text'
