@@ -18,7 +18,7 @@ function App() {
 		<>
 			<Header />
 			<TodoForm addTodo={addTodo} />
-			{todos.map((e, i) => <ListTodo id={i} todo={e} key={i} delTodo={delTodo} />)}
+			{todos.map((task, i) => <ListTodo id={i} todo={task} key={i} delTodo={delTodo} />)}
 		</>
 	);
 }
