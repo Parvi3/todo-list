@@ -21,7 +21,7 @@ const TodoForm = ({ addTodo }) => {
                     value={value}
                     onChange={e => setValue(e.target.value)}
                 />
-                {value.length > 0 ? <button className="btnToDo" type='submit'>Добавить</button> : null}
+                {(value.length > 0 && value === "") ? <button className="btnToDo" type='submit'>Добавить</button> : null}
             </div>
         </form>
 

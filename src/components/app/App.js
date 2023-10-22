@@ -14,6 +14,7 @@ function App() {
 	const delTodo = (todo) => {
 		setTodos(todos.filter(todos => todos !== todo));
 	}
+
 	return (
 		<>
 			<Header />
